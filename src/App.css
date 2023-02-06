@@ -5,6 +5,7 @@
 .App-logo {
   height: 120px;
   pointer-events: none;
+  filter: brightness(3);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -44,6 +45,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 25vh;
 }
 nav form {
   padding: 10px;

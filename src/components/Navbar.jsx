@@ -1,4 +1,5 @@
 import ButtonComponent from "./ButtonComponent"
+import LogoImg from "./LogoImg"
 
 const Navbar = () =>{
     return (
@@ -9,6 +10,9 @@ const Navbar = () =>{
                 <li><ButtonComponent content="Info"/></li>
                 <li><ButtonComponent content="Contatti" /></li>
             </ul>
+            <LogoImg/>
+            <LogoImg/>
+            <LogoImg/>
             <form>
                 <input type="text" placeholder="search" />
                 <ButtonComponent content="Cerca" />
