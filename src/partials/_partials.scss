@@ -1,0 +1,25 @@
+
+
+.normalBtn {
+    font-size: 1.3em;
+    font-weight: 600;
+    background-color: yellow;
+    background-image: linear-gradient(
+      90deg,
+      rgb(249, 19, 19, 0.5),
+      rgb(202, 57, 5, 0.9)
+    );
+    color: aliceblue;
+    border: 5px outset whitesmoke;
+    cursor: pointer;
+    user-select: none;
+  }
+  .normalBtn:hover {
+    background-image: linear-gradient(
+      180deg,
+      rgb(249, 19, 19, 0.5),
+      rgb(202, 57, 5, 0.9)
+    );
+    color: rgb(147, 194, 235);
+    border: 5px inset whitesmoke;
+  }

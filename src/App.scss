@@ -1,3 +1,5 @@
+@import './partials/partials';
+
 .App {
   text-align: center;
 }
@@ -46,46 +48,24 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 25vh;
+  form {
+    padding: 10px;
+    margin: 0px 10px;
+  }
+  ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    li {
+      margin: 10px 15px;
+      button {
+        padding: 8px 16px;
+      }
+    }
+  }
 }
-nav form {
-  padding: 10px;
-  margin: 0px 10px;
-}
+ 
 
-nav ul {
-  display: flex;
-  padding: 0;
-  list-style-type: none;
-}
-nav ul li {
-  margin: 10px 15px;
-}
-nav ul li button {
-  padding: 8px 16px;
-}
-.normalBtn {
-  font-size: 1.3em;
-  font-weight: 600;
-  background-color: yellow;
-  background-image: linear-gradient(
-    90deg,
-    rgb(249, 19, 19, 0.5),
-    rgb(202, 57, 5, 0.9)
-  );
-  color: aliceblue;
-  border: 5px outset whitesmoke;
-  cursor: pointer;
-  user-select: none;
-}
-.normalBtn:hover {
-  background-image: linear-gradient(
-    180deg,
-    rgb(249, 19, 19, 0.5),
-    rgb(202, 57, 5, 0.9)
-  );
-  color: rgb(147, 194, 235);
-  border: 5px inset whitesmoke;
-}
 
 main {
   display: flex;
